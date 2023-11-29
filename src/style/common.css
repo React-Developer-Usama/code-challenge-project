@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@import url(variable.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--text-white);
+}
+
+body {
+    background-color: var(--bg-black);
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-black);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 1124px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+@media screen and (min-width:1366px) {
+    .container {
+        max-width: 1300px;
+        padding: 0;
+    }
+}
